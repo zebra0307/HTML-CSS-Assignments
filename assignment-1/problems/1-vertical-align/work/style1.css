@@ -1,0 +1,22 @@
+body{
+    padding: 30px 30px 30px;
+    background-color: rgb(252, 148, 11);
+}
+
+.container{
+    padding: 80px;
+    height: 800px;
+    width: 1200px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.content{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}

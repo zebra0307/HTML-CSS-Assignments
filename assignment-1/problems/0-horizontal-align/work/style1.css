@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+}
+.container{
+    background-color: blanchedalmond;
+    width: 1200px;
+}
+.content{
+    height: 500px ;
+}
