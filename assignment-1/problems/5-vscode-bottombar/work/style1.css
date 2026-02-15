@@ -22,7 +22,7 @@ body{
     padding-block:1rem;
 }
 
-.languagePanel img {
+.flex img {
     height: 40px;
     width: auto;
 }
