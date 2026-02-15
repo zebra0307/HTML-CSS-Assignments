@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-grid-layout</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .father{
+            width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            /* gap: 10px; */
+            
+        }
+        .child1{
+            background-color: red;
+
+        }
+        .child2{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="child1">
+            <h1>hello !</h1>
+        </div>
+        <div class="child2">
+            <h1>hii there !</h1>
+        </div>
+    </div>
+    
+</body>
+</html>

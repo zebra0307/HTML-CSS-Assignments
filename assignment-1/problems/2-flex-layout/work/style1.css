@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(151, 224, 224);
+}
+.father{
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+}
+.child1{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: red;
+}
+
+.child2{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    background-color: rgb(8, 8, 154);
+}
