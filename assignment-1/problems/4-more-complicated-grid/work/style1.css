@@ -1,0 +1,31 @@
+body{
+    background-color: aqua;
+}
+
+.father{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.child1{
+    background-color: red;
+}
+.horizontal-centre{
+    display: flex;
+    justify-content: center;
+}
+
+.child2{
+    background-color: blue;
+}
+.child2a{
+    display: flex;
+    justify-content: center;
+}
+.child2b{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
