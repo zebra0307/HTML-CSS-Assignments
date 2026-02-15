@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+}
+.child1{
+    padding: 5px;
+}
+
+.languagePanel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-inline: 2.5rem;
+    padding-block:1rem;
+}
+
+.languagePanel img {
+    height: 40px;
+    width: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
